@@ -1,0 +1,280 @@
+@import url('https://fonts.googleopis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.wrapper{
+    background: linear-gradient(180deg, rgba(0,0,0,1)0%, rgba(26,14,1,1) 100%);
+    width: 100%;
+}
+
+.wrapper1{
+    background: linear-gradient(180deg, rgba(0,0,0,1)0%, rgba(26,14,1,1) 100%);
+    width: 100%;
+}
+
+video {
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 50px 0;
+}
+
+header .logo{
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+header nav {
+    float: right;
+    width: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li.active::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background: #DC7000;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: -15px;
+}
+
+header nav ul li a{
+    color: #fff;
+}
+
+header nav ul li:not(.active):not(.btn) a:hover {
+border-bottom: 5px solid #DC7000;
+}
+
+header nav ul li.btn a {
+    background: #FA9021;
+    padding: 9px 17px;
+    border-radius: 5px ;
+    transition: all 500 ease;
+}
+
+header nav ul li.btn a:hover {
+    background: #a02604;
+}
+
+.hero {
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+    perspective: 1000px;
+    display: flex;
+}
+
+.hero-info{
+    width: 530px;
+    padding-top: 70px; 
+    padding-left: 100px;
+}
+
+.hero-info h2 {
+    color: #E87D0E;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero-info h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero-info p {
+    font-weight: 500;
+    line-height: 170%;
+    margin: 30px 0;
+}
+
+.hero-info .btn {
+    background: #FA8305;
+    color: #fff;
+border-radius: 50px;
+padding: 15px 30px;
+border: 0;
+transition: all 500ms ease;
+}
+
+.hero-info .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.hero img{
+    position: absolute;
+    top: -70px;
+    right: 20px;
+}
+
+.container-tranding {
+    padding-top: 50px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.container-tranding1 {
+    padding-top: 50px;
+    padding-right: 60px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.container-tranding1 p {
+    padding-top: 100px;
+    padding-right: 300px;
+    position: absolute;
+    padding-left: 450px;
+}
+
+.container-tranding h3 {
+font-weight: 600;
+font-size: 31px;
+}
+
+.container-tranding .see-all {
+    color: #fff;
+    background: #25211D;
+    border-radius: 5px;
+    padding: 12px 23px;
+    float: right;
+    display: block;
+    transition: all 500ms ease;
+}
+
+.container-tranding .see-all:hover {
+    transform: scale(1.1);
+}
+
+.container-tranding .games {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.container-tranding .games span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-tranding .games span img {
+    position: relative;
+    top: 5px;
+    margin-right: 7px;
+}
+
+.fire {
+    height: 22px;
+    width: auto;
+}
+
+.freefire {
+    border-radius: 15px;
+    height: 300px;
+    width: auto;
+}
+
+.containerbig-text {
+    padding: 50px 0;
+font-size: 35px;
+font-weight: 600;
+text-align: center;
+width: 800px;
+padding-left: 370px;
+}
+
+.containerbanner {
+    padding: 80px 0;
+}
+
+.containerbanner h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 100px;
+    padding-left: 150px;
+}
+
+.containerbanner p {
+    line-height: 170%;
+    margin-bottom: 30px;
+    width: 550px;
+    padding-left: 150px;
+}
+
+.containerbanner img {
+    width: 80%;
+    padding-left: 150px;
+    margin-top: 30px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.photo{
+    height: 380px;
+    width: auto;
+    padding-left: 100px;
+}
+
+.insideout{
+    padding-left: 500px;
+}
+
+
+.get{
+    text-decoration: none;
+    color: white;
+}
+
+
